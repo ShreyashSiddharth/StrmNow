@@ -6,7 +6,7 @@ import useFavicon from "react-modify-favicon";
 import { Outlet } from "react-router-dom";
 const App = () => {
 
-  useFavicon('https://i.ibb.co/749Yw5W/favicon-16x16.png');
+  useFavicon('https://i.ibb.co/74n9HyP/Screenshot-36.png');
   return (
     <>
     <Header/>
