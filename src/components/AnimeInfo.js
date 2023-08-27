@@ -21,14 +21,15 @@ function AnimeInfo() {
     getAnimeInfo();
  },[])
   return (
-    <div className='h-screen bg-gray-800 items-center content-center py-36 h-full'>
+    <div className='max-h-full bg-gray-800 items-center content-center py-36'>
       
       
         <InfoCard {...info} />
-        <h1 className='block my-3 text-white mx-5 my-3'>Episodes : </h1>
+        <h1 className='block my-3 text-white mx-5 mt-3'>Episodes : </h1>
         <div className='flex flex-wrap  bg-gray-800 text-white px-5 h-auto'>
        
         <br />
+        <div className='  grid grid-cols-12 gap-x-14 gap-y-4 p-3'>
        {
           (episodeNo.length == 0)? <h1>Loading...</h1>:
           episodeNo.map((ep)=>{
@@ -36,6 +37,7 @@ function AnimeInfo() {
           }
           )
        }
+       </div>
           
         </div>
 

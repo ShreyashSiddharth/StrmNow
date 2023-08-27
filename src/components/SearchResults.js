@@ -18,7 +18,7 @@ function SearchResults() {
         getSearchResults();
     },[querry])
   return (
-    <div className='bg-gray-800'>
+    <div className='bg-gray-800 min-h-[90vh] max-h-full'>
     <div className='font-extrabold text-3xl text-white py-2 px-3'><h1>Search Results</h1></div>
     <div className='flex flex-wrap'>
      

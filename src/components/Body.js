@@ -19,7 +19,7 @@ function Body() {
 
     console.log(trendAnime);
   return (
-    <div className='bg-gray-900'>
+    <div className='bg-gray-900  min-h-screen h-full'>
     <div className='font-extrabold text-3xl text-white py-2 px-3'><h1>Top Airing</h1></div>
     <div className='flex flex-wrap'>
      
